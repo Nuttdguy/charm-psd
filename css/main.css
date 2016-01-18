@@ -1,0 +1,235 @@
+/*==================================\
+Document General Styles 
+\*=================================*/
+
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+html {
+	width: 100%;
+	font: 300 16px/16px #000;
+	margin: 0;
+}
+
+body, h1, h2, h3, h4, p { margin: 0; padding: 0;}
+
+body { position: relative; }
+
+li { list-style: none; }
+
+a { text-decoration: none; }
+
+ul, ol { margin: 0; padding: 0; }
+
+
+/*==================================\
+GRID COL CONTAINER WIDTHS
+\*=================================*/
+
+.row { width: 100%; }
+
+.col-1 { width: 08.33%; }
+.col-2 { width: 16.66%; }
+.col-3 { width: 25.00%; }
+.col-4 { width: 33.33%; }
+.col-5 { width: 41.66%; }
+.col-6 { width: 50.00%; }
+.col-7 { width: 58.33%; }
+.col-8 { width: 66.66%; }
+.col-9 { width: 75.00%; }
+.col-10 { width: 83.33%; }
+.col-11 { width: 91.66%; }
+
+/*==================================\
+CLEAR FIX 
+\*=================================*/
+
+.cf:before, .cf:after {
+	content: " ";
+	display: table;
+}
+
+.cf:after { clear: both; }
+
+.cf { zoom: 1; }
+
+
+/*==================================\
+SITE CONTAINERS
+\*=================================*/
+
+.container-full {
+	height: 100%;
+}
+
+.background { position: absolute; z-index: -1;	}
+
+.background-filler1 {
+	background-color: #161616;
+	border-bottom: 4px solid red;
+	box-shadow: -2px 4px 6px rgba(54, 50, 50, 0.19), 
+		-2px 5px 7px rgba(54, 50, 50, 0.19),
+		-2px 5px 8px rgba(54, 50, 50, 0.19),
+		-2px 6px 8px rgba(54, 50, 50, 0.19),
+		-2px 6px 9px rgba(54, 50, 50, 0.19),
+		-2px 7px 10px rgba(54, 50, 50, 0.19),
+		-2px 7px 11px rgba(54, 50, 50, 0.19);
+	height: 3.75em;
+	position: fixed;
+	top: 0;
+}
+
+.background-filler2 {
+	background-color: #343434;
+	height: 10em;
+	top: 3.75em;
+}
+
+.background-filler3 {
+	background-color: #343434;
+	height: 17.75em;
+	top: 1314px;
+}
+
+.background-filler4 {
+	background-color: #161616;
+	border-top: 4px solid red;
+	height: 5em;
+	top: 1598px;
+}
+
+.container-bodycontent {
+	margin: 0 auto;
+	width: 960px;
+}
+
+/*==================================\
+CHARMED STYLES
+\*=================================*/
+
+.nav-logo {
+	color: #fff;
+	font-size: 1.875em;
+	line-height: 1.875em;
+	position: fixed;
+}
+
+/*==================================\
+SITE NAVIGATION
+\*=================================*/
+
+.site-navigation {
+	line-height: 3.75em;
+	position: fixed;
+	width: inherit;
+}
+
+.site-navigation ul {
+	float: right;
+}
+
+.site-navigation li {
+	display: inline-block;
+	width: 16.66%;
+	text-align: center;
+}
+
+.site-navigation a {
+	color: #fff;
+	font-size: .8em;
+	text-transform: uppercase;
+}
+
+.site-navigation a:hover {
+	border-bottom: 1px solid #fff;
+	color: rgba(227, 221, 221, 0.49);
+	padding-bottom: 2px;
+	transition: color .6s;
+}
+
+
+/*==================================\
+WE MAKE BEAUTIFUL AND RESPONSIVE THEMES
+\*=================================*/
+
+.banner {
+	position: relative;
+	top: 3.75em; /* 2.5em + 1.25em = 3.75em | 40fs + 16lh + 4bb */
+}
+
+.banner > h2 {
+	color: #fff;
+	padding-top: 2em;
+	text-align: center;
+}
+
+.banner h2 span {
+	color: red;
+}
+
+.banner > p {
+	color: #fff;
+	font-style: italic;
+	font-size: .8em;
+	padding-top: .8em;
+	text-align: center;
+}
+
+
+/*==================================\
+GENERAL SECTION STYLES
+\*=================================*/
+
+
+
+
+/*==================================\
+WHO WE ARE?
+\*=================================*/
+
+
+
+
+/*==================================\
+WHAT WE DO?
+\*=================================*/
+
+
+
+
+/*==================================\
+HOW WE DO IT?
+\*=================================*/
+
+
+
+/*==================================\
+WHY CHOSE US?
+\*=================================*/
+
+
+
+/*==================================\
+OUR SERVICES
+\*=================================*/
+
+
+
+/*==================================\
+CHECK OUR PORTFOLIO
+\*=================================*/
+
+
+
+/*==================================\
+READ OUR BLOG
+\*=================================*/
+
+
+
+/*==================================\
+HAVE WE CHARMED YOU?
+\*=================================*/
+
