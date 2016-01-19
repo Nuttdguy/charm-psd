@@ -83,13 +83,13 @@ SITE CONTAINERS
 }
 
 .background-filler2 {
-	background-color: #343434;
+	background: url(img/img-noise-361x370.png);
 	height: 10em;
 	top: 3.75em;
 }
 
 .background-filler3 {
-	background-color: #343434;
+	background: url(img/img-noise-361x370.png);
 	height: 17.75em;
 	top: 1536px;
 }
@@ -112,11 +112,23 @@ CHARMED STYLES
 
 .nav-logo {
 	color: #fff;
-	font-size: 1.875em;
 	line-height: 1.875em;
 	position: fixed;
 	z-index: 99;
 }
+
+.nav-logo { 
+	font-family: 'Great Vibes', serif; 
+	font-size: 2em; 
+}
+
+.nav-logo:first-letter {
+	color: red;
+	font-size: 1.1em;
+	letter-spacing: .1em;
+}
+
+
 
 /*==================================\
 SITE NAVIGATION
@@ -518,7 +530,7 @@ HAVE WE CHARMED YOU?
 \*=================================*/
 
 .contact-us {
-	height: 270px;
+	height: 248px;
 	padding-top: 2.75em;
 }
 
@@ -579,12 +591,162 @@ HAVE WE CHARMED YOU?
 }
 
 /*==================================\
-INFO BOTTOM SECTION
+INFO-BAR
 \*=================================*/
 
+.infobar {
+	background: #161616;
+	color: #fff;
+	display: block;
+	height: 44px;
+	width: 100%;
+}
 
+.infobar p {
+	font-size: .78em;
+	font-style: italic;
+	line-height: 44px;
+}
 
+.infobar i {
+	line-height: 44px;
+	padding: 0 .5em;
+	vertical-align: top;
+}
 
+/*==================================\
+INFO BOTTOM GENERAL
+\*=================================*/
+
+.info-bottom {
+	color: #fff;
+	height: 260px;
+	position: relative;
+	border: 1px solid red;
+}
+
+.info-bottom aside { 
+	height: 260px;
+	float: left;
+	padding-top: 44px;
+}
+
+.info-bottom h3:not(.info-logo) { 
+	font-size: 1.25em;
+	line-height: 2.5em;
+	text-transform: uppercase; 
+}
+
+.info-bottom p,
+.info-bottom cite { 
+	font-size: .8em; 
+	line-height: 1.6em; 
+	padding-right: 1em;
+}
+
+/*==================================\
+INFO BOTTOM COL-1
+\*=================================*/
+
+.info-logo { font-family: 'Great Vibes'; font-size: 2em; }
+
+.info-logo:first-letter {
+	color: red;
+	font-size: 1.1em;
+	letter-spacing: .1em;
+}
+
+/*==================================\
+INFO BOTTOM COL-2
+\*=================================*/
+
+.info-bottom-2 {
+	position: relative;
+}
+
+.info-bottom cite {
+	line-height: 0;
+}
+
+.info-bottom-2 blockquote {
+	background-color: #161616;
+	padding: 1em .75em 0 1.75em;
+	padding-top: 1em;
+	margin: 0 1em;
+	height: 100px;
+}
+
+.info-bottom-2 i {
+	position: absolute;
+	background-color: #222;
+	border-radius: 50%;
+	height: 36px;
+	width: 36px;
+	line-height: 36px;
+	text-align: center;
+}
+
+.info-bottom-2 span {
+	color: red;
+	font-style: italic;
+}
+
+/*==================================\
+INFO BOTTOM COL-3
+\*=================================*/
+
+.info-bottom-3 li {
+	background-color: #161616;
+	display: inline-block;
+	font-size: .8em;
+	padding: 3px 6px;
+	margin: 2px;
+}
+
+/*==================================\
+INFO BOTTOM COL-4
+\*=================================*/
+
+.info-bottom p {
+	padding-bottom: .5em;
+}
+
+.info-bottom-4-link {
+	color: red;
+}
+
+.info-bottom-4 li {
+	background-color: #161616;
+	display: inline-block;
+	padding: 8px;
+	text-align: center;
+	width: 17.5%;
+}
+
+/*==================================\
+SITE FOOTER
+\*=================================*/
+
+.site-footer {
+	color: #fff;
+	font-size: .9em;
+	padding-top: 2em;
+}
+
+.site-footer a {
+	background-color: #343434;
+	display: inline-block;
+	float: right;
+	font-size: 2em;
+	transform: translateY(-25%);
+	padding: 5px 10px 10px 10px;
+	height: 32px;
+}
+
+.site-footer a:hover {
+	background-color: rgb(255, 0, 0);
+	transition: background-color .6s;
+}
 
 
 
