@@ -19,7 +19,7 @@ body { position: relative; }
 
 li { list-style: none; }
 
-a { text-decoration: none; }
+a { text-decoration: none; color: #fff; }
 
 ul, ol { margin: 0; padding: 0; }
 
@@ -239,8 +239,12 @@ HERO SECTION STYLES
 }
 
 /*==================================\
-GENERAL HERO SECTION STYLES
+GENERAL HERO BOTTOM SECTION STYLES
 \*=================================*/
+/*==================================\
+WHO WE ARE? WHAT WE DO? HOW WE DO IT? WHY CHOSE US?
+\*=================================*/
+
 
 .hero-bottom {
 	position: relative;
@@ -283,10 +287,6 @@ GENERAL HERO SECTION STYLES
 	box-shadow: 1px 3px 3px #222;
 }
 
-/*==================================\
-WHO WE ARE?
-\*=================================*/
-
 
 .hero-bottom i {
 	float: left;
@@ -297,40 +297,99 @@ WHO WE ARE?
 
 
 /*==================================\
-WHAT WE DO?
+OUR WORK
+\*=================================*/
+/*==================================\
+OUR SERVICES, CHECK OUR PORTFOLIO, READ OUR BLOG
 \*=================================*/
 
+.our-work {
+	color: #000;
+	height: 9.25em;
+}
 
+.our-work section {
+	height: 9.25em;
+	padding-top: 1.375em;
+	float: left;
+	width: 33.33%;
+}
 
+.our-work i {
+	background: #000;
+	border-radius: 50%;
+	color: #fff;
+	float: left;
+	line-height: 58px;
+	text-align: center;
+	width: 58px;
+	height: 58px;
+}
+
+.our-work h3,
+.our-work p {
+	float: right;
+	padding-right: .5em;
+	width: 75%;
+}
+
+.our-work p {
+	font-size: .9em;
+}
 
 /*==================================\
-HOW WE DO IT?
+DESIGN, DEVELOPMENT, AND ILLUSTRATION
 \*=================================*/
 
+.work-example {
+	padding-top: 1em;
+	text-align: center;
+}
 
+.work-example {
+	display: inline-block;
+	width: 100%;
+}
 
-/*==================================\
-WHY CHOSE US?
-\*=================================*/
+.work-example:after, 
+.work-example:before {
+	border-top: 4px solid rgba(192, 192, 192, 0.34);
+	content: " ";
+	height: 1em;
+	width: 30%;
+}
 
+.work-example:after {
+	float: right;
+	transform: translateY(-100%);
+}
 
+.work-example:before {
+	content: " ";
+	float: left;
+	transform: translateY(100%);
+}
 
-/*==================================\
-OUR SERVICES
-\*=================================*/
+.work-example ul {
+	width: 40%;
+	margin: 0 auto;
+}
 
+.work-example li {
+	background-color: #343434;
+	display: inline-block;
+	padding: 8px;
+	margin: 0 4px;
+}
 
+.work-example li:first-of-type {
+	background: red;
+}
 
-/*==================================\
-CHECK OUR PORTFOLIO
-\*=================================*/
-
-
-
-/*==================================\
-READ OUR BLOG
-\*=================================*/
-
+.work-example li:hover {
+	background-color: rgb(255, 0, 0);
+	transition: background-color .6s;
+}
 
 
 /*==================================\
