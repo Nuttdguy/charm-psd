@@ -79,6 +79,7 @@ SITE CONTAINERS
 	height: 3.75em;
 	position: fixed;
 	top: 0;
+	z-index: 98;
 }
 
 .background-filler2 {
@@ -114,6 +115,7 @@ CHARMED STYLES
 	font-size: 1.875em;
 	line-height: 1.875em;
 	position: fixed;
+	z-index: 99;
 }
 
 /*==================================\
@@ -124,6 +126,7 @@ SITE NAVIGATION
 	line-height: 3.75em;
 	position: fixed;
 	width: inherit;
+	z-index: 99;
 }
 
 .site-navigation ul {
@@ -161,7 +164,7 @@ WE MAKE BEAUTIFUL AND RESPONSIVE THEMES
 
 .banner > h2 {
 	color: #fff;
-	padding-top: 2em;
+	padding-top: 2.75rem;
 	text-align: center;
 }
 
@@ -173,23 +176,124 @@ WE MAKE BEAUTIFUL AND RESPONSIVE THEMES
 	color: #fff;
 	font-style: italic;
 	font-size: .8em;
-	padding-top: .8em;
+	padding-top: .5625rem;
 	text-align: center;
 }
 
 
 /*==================================\
-GENERAL SECTION STYLES
+HERO SECTION STYLES
 \*=================================*/
 
+.hero {
+	color: #fff;
+	padding-top: 1.6875rem;
+}
 
+.hero-image {
+	background: url(img/hero.png) center top no-repeat;
+	background-size: cover;
+	height: 420px;
+}
 
+.hero-image .heading,
+.hero-image .subheading {
+	left: 3%;
+	line-height: 3.55em;
+	height: 3.5em;
+	position: relative;
+	padding-left: 1em;
+}
+
+.hero-image .heading {
+	background-color: #161616;
+	font-weight: 700;
+	text-transform: uppercase;
+	top: 32%;
+	width: 32.5%;
+}
+
+.hero-image .subheading {
+	background-color: red;
+	font-size: .9em;
+	font-style: italic;
+	top: 32.75%;
+	width: 48%;
+}
+
+.hero:before, 
+.hero:after {
+	height: 420px;
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+}
+
+.hero:before {
+	box-shadow: -10px -3px 15px #222;
+}
+
+.hero:after {
+	top: 120px;
+	box-shadow: 10px 3px 15px #222;
+}
+
+/*==================================\
+GENERAL HERO SECTION STYLES
+\*=================================*/
+
+.hero-bottom {
+	position: relative;
+	top: 15.25em;
+	height: 4.375em;
+}
+
+.hero-bottom section {
+	background-color: #343434;
+	height: 4.375em;
+	float: left;
+	text-align: center;
+	width: 25%;
+	border-top: 4px solid #343434;
+	border-right: 2px solid #000;
+}
+
+.hero-bottom section:last-of-type {
+	border-right: none;
+}
+
+.hero-bottom h3, 
+.hero-bottom p {
+	float: right;
+	width: 70%;
+} 
+
+.hero-bottom h3 {
+	font-size: 1em;
+	padding-top: .5em;
+}
+
+.hero-bottom p {
+	font-size: .9em;
+	line-height: 1.5em;
+}
+
+.hero-bottom section:hover {
+	border-top: 4px solid red;
+	box-shadow: 1px 3px 3px #222;
+}
 
 /*==================================\
 WHO WE ARE?
 \*=================================*/
 
 
+.hero-bottom i {
+	float: left;
+	height: inherit;
+	line-height: 2em;
+	width: 30%;
+}
 
 
 /*==================================\
