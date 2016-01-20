@@ -217,6 +217,12 @@ HERO SECTION STYLES
 	padding-left: 1em;
 }
 
+.hero-image span {
+	display: block;
+	height: 3.5em;
+	position: absolute;
+}
+
 .hero-image .heading {
 	background-color: #161616;
 	font-weight: 700;
@@ -224,6 +230,7 @@ HERO SECTION STYLES
 	top: 32%;
 	width: 32.5%;
 }
+
 
 .hero-image .subheading {
 	background-color: red;
